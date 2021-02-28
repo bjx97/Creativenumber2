@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #F6EAD1;
+    color: #0e3b9cc7;
+    font-family: "Times New Roman", "Arial", sans-serif;
+  }
+
+  .main-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+  }
+
+  .tv-container {
+      display: flex;
+      flex-direction: column;
+  }
