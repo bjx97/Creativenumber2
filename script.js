@@ -3,7 +3,6 @@ function showInput(query) {
     fetch(url)
         .then(response => response.json())
         .then((data) => {
-            console.log(data);
             const results = data.map(element => "Name: " + element.show.name + "----------" + "Genres: " + element.show.genres + "----------" + "Language: " + element.show.language
             + "----------" + "Runtime: " + element.show.runtime + " minutes");
             giveResults(results);
